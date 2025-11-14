@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme static {
+  --breakpoint-mobile: 375px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1440px;
+
+  --color-blue-900: hsl(230, 35%, 7%);
+  --color-blue-300: hsl(231, 77%, 90%);
+
+  --spacing-25: 2px;
+  --spacing-50: 4px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+  --spacing-1200: 96px;
+  --spacing-1600: 128px;
+}
+
+html,
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
